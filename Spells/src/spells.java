@@ -6,7 +6,7 @@ protected String result;
 protected int lastTime;
  public void makeNoise()
  {
-	 System.out.println("Crack");
+	 System.out.println("Crack!");
  }
  public abstract void declareWhatDoes();
  public void declareHowLong()
@@ -14,6 +14,6 @@ protected int lastTime;
 			System.out.println("It lasted " + lastTime + " minutes long.");
 			
 		}
- public abstract void ();
+ public abstract void tellColor();
   
 	}

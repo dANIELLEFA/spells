@@ -1,24 +1,28 @@
 
 public class attack extends spells
 	{
- protected String damage;
+ //protected String damage;
  protected int hurt;
 
 @Override
 public void declareWhatDoes()
 	{
-		System.out.println("It does " + result + ". You will have to " + damage + ".");
+		System.out.println("This attack spell causes " + result + ".");
 		
 	}
 
 public void hurtMainCharacter()
 {
-	System.out.println("It hurt a main character " + hurt + ".");
+	System.out.println("It hurt a main character " + hurt + " times.");
 }
 
-public void attackBack()
+
+@Override
+public void tellColor()
 {
-	System.out.println("Do yo");
+	System.out.println("This attack spell is " + color + ".");
+	System.out.println();
+	
 }
 
 	}
